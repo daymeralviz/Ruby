@@ -111,3 +111,14 @@ hola daymer
 => nil
 irb(main):026:0> 
 
+- programacion orientada a objeto 
+
+metodos de la instancia == metodos publicos 
+metodos de la clase ==  metodo estatico
+
+metaprogramacion -- varias macros de codigo para codificar menos -- attr_accessor 
+       - Struct.new(:name,:age)
+
+ Modular el codigo  = alta coheciòn - namespace 
+
+booder y gemas 
