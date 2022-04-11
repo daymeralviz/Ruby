@@ -121,4 +121,42 @@ metaprogramacion -- varias macros de codigo para codificar menos -- attr_accesso
 
  Modular el codigo  = alta coheciòn - namespace 
 
-booder y gemas 
+Bundler y gemas
+
+Bundler -   gestor de dependencias
+   gem install bundler 
+bundle --version
+
+mkdir snake
+bundle init 
+
+ruby-toolbox.com 
+
+
+bunble install
+
+https://github.com/faker-ruby/faker/blob/master/README.md
+require "Faker"
+Faker::Name.name
+
+Faker::Internet.email
+
+bundle exec irb
+
+require "Faker"
+
+bundle exec ruby main.rb
+
+- usar minitest
+
+require "minitest/autorun"
+
+
+- hacer el  proyecto de ejemplo 
+
+https://www.ruby2d.com/
+
+
+instalacion de rbenv para manejar varias versiones de ruby https://github.com/rbenv/rbenv#readme 
+
+rbenv global 1.8.7-p352
