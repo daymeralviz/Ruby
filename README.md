@@ -160,3 +160,15 @@ https://www.ruby2d.com/
 instalacion de rbenv para manejar varias versiones de ruby https://github.com/rbenv/rbenv#readme 
 
 rbenv global 1.8.7-p352
+
+https://github.com/rbenv/rbenv
+
+
+
+USUARIOs-MacBook-Air:Ruby usuario$ rbenv init
+# Load rbenv automatically by appending
+# the following to ~/.bash_profile:
+
+eval "$(rbenv init - bash)"
+
+
