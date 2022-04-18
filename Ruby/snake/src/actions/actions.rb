@@ -44,9 +44,30 @@ module Actions
       end 
    end
 
-   def posicion_is_valid?(state,next_position)
+   def posicion_is_valid?(state,position)
+      #verificar que este en  el grid
+     
+      is_invalid = (( position.row > = state.grid.rows  || 
+         position.row  <  0 ) ||
+         ( position.col > = state.grid.cols  || 
+         position.col  <  0 ) )
+
+      return false is_invalid
+
+         #verificar que no este sobre la serpiente
+         
+      return  !(state.snake.positions.include? position)
 
    end
+
+   def move_snake_to(state,next_position)
+      state.snake.positions
+
+      
+   end   
+
+   def end_game(state)
+   end 
 
 
 end
