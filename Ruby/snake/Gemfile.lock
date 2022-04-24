@@ -7,6 +7,7 @@ GEM
       i18n (>= 0.7)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
+    minitest (5.15.0)
     ruby2d (0.11.3)
 
 PLATFORMS
@@ -16,6 +17,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   faker (~> 1.9)
+  minitest
   ruby2d
 
 BUNDLED WITH
