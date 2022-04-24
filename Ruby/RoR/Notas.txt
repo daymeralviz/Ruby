@@ -1,0 +1,14 @@
+
+https://platzi.com/clases/1976-intro-ror/29907-bienvenida/
+Curso de Introducción a Ruby on Rails
+Johan Tique
+
+subir el servidor de postgress 
+
+brew services start postgresql
+
+$ psql postgres
+postgres=# CREATE ROLE platzi WITH LOGIN PASSWORD 'platzi';
+postgres=# ALTER ROLE platzi CREATEDB;
+Para salir de la sesión de postgreSQl debemos usar el comando \q
+
