@@ -12,3 +12,13 @@ postgres=# CREATE ROLE platzi WITH LOGIN PASSWORD 'platzi';
 postgres=# ALTER ROLE platzi CREATEDB;
 Para salir de la sesión de postgreSQl debemos usar el comando \q
 
+
+- crear proyecto 
+rails new mi_app
+
+- enrutador  en config/routes.rb
+- luego se crea el controlador en app/controller
+- luego en la vista se crea el render de la peticion en app/views/
+
+- luego se ve en ejecuciòn el sistema con rails server 
+
