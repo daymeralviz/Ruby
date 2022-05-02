@@ -21,4 +21,30 @@ rails new mi_app
 - luego en la vista se crea el render de la peticion en app/views/
 
 - luego se ve en ejecuciòn el sistema con rails server 
+- comandos rails g  
+      rails g model Pet name:string breed:string
+
+     rails g model Pet name:string breed:string
+      invoke  active_record
+      create    db/migrate/20220502000741_create_pets.rb
+      create    app/models/pet.rb
+
+
+     archivos en la vista hello.html.erb
+convencion para pasar  variables 
+<%=  @variable %>
+
+- correr migraciones pendientes
+rails db:migrate 
+
+- rails console  - Levanta el irb 
+rails console 
+
+
+
+
+
+
+
+
 
