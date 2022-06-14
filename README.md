@@ -1,6 +1,8 @@
 # Ruby
 Study Ruby and Rails
 
+irb
+
 Ruby general 
 
 https://platzi.com/clases/1441-ruby/15863-bienvenida-e-introduccion2876/

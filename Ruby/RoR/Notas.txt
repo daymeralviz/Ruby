@@ -1,4 +1,6 @@
 
+
+irb
 https://platzi.com/clases/1976-intro-ror/29907-bienvenida/
 Curso de Introducción a Ruby on Rails
 Johan Tique
